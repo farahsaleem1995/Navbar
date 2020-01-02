@@ -1,0 +1,50 @@
+body {
+  background: #d4d4d4;
+}
+
+.nav-container .nav-list {
+  width: 70vw;
+}
+
+.nav-container .nav-list .nav-list-item ul {
+  width: 70vw;
+}
+
+.nav-container .search-bar input {
+  right: 0;
+  width: 2rem;
+  padding: 0;
+  background: #fff;
+  border: none;
+  pointer-events: none;
+}
+
+.nav-container .search-bar span {
+  right: 0;
+  background: transparent;
+  color: var(--dark-color);
+}
+
+.nav-container .search-bar span .fa-times {
+  display: none;
+}
+
+.nav-container .search-bar.active input {
+  width: 100%;
+  padding: 0 2rem 0 1rem;
+  background: var(--light-color) !important;
+  pointer-events: all;
+}
+
+.nav-container .search-bar.active span .fa-search {
+  display: none;
+}
+
+.nav-container .search-bar.active span .fa-times {
+  display: inline-block;
+}
+
+.nav-container .hamburger {
+  background: transparent;
+  color: var(--dark-color);
+}
